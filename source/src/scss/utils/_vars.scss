@@ -1,0 +1,30 @@
+// breakpoints
+$desktop-small: 1200px;
+$tablet: 992px;
+$tablet-small: 768px;
+$mobile: 576px;
+
+:root {
+  --ff: "Poppins", sans-serif;
+  --transition: 0.2s all ease-in-out;
+
+  --c-primary: #0b8fed;
+  --c-text-white: #fff;
+  --c-border: #eee;
+
+  --bg-1: #292f36;
+  --bg-2: #1a1e23;
+  --brand-1: #12f7d6;
+  --brand-2: #98faec;
+  --grey: #43454d;
+  --white: #fff;
+  --html: #e54f26;
+  --css: #0c73b8;
+  --js: #e7a020;
+  --react: #28a9e0;
+  --white: #fff;
+  --black: #000;
+
+  --font-family: "Ubuntu", sans-serif;
+  --second-family: "IBM Plex Mono", sans-serif;
+}

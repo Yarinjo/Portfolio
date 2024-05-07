@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  height: 50px;
+  background: var(--brand-1);
+  ul {
+    display: flex;
+    gap: 15px;
+  }
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 128px;
+  width: 1664px;
+  margin-inline: auto;
+}

@@ -1,0 +1,83 @@
+.about-content {
+  background: var(--bg-2);
+  height: 1080px;
+  //   background: url("https://c.wallhere.com/photos/2e/c1/1920x1080_px_Gray_Background-1207122.jpg!d");
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0px 128px;
+  max-width: 1664px;
+  margin-inline: auto;
+}
+.about-main-content {
+  display: flex;
+}
+.about-description-block {
+  display: flex;
+  flex-direction: column;
+  // max-width: 880px;
+  // width: 880px;
+}
+.about-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 112%;
+  text-transform: capitalize;
+  color: var(--white);
+
+  display: flex;
+  border: 4px solid var(--brand-1);
+  border-radius: 40px 0;
+  padding: 16px 40px;
+  max-width: 377px;
+
+  margin-bottom: 64px;
+}
+.about-photo {
+  display: flex;
+  width: 462px;
+  height: 556px;
+  img {
+    border-radius: 16px;
+    width: 462px;
+    height: 556px;
+    object-fit: contain;
+  }
+}
+.about-description {
+  border-radius: 40px;
+  padding: 24px 40px;
+  width: 70%;
+  background: var(--bg-1);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--white);
+
+  span {
+  }
+}
+.about-scroll {
+  margin-top: 126px;
+  margin-bottom: 126px;
+}
+.arrows {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  color: var(--brand-2);
+}
+#hello {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 131%;
+  text-transform: capitalize;
+  color: var(--brand-1);
+}

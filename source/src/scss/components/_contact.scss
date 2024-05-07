@@ -1,0 +1,121 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 128px;
+  max-width: 1664px;
+  margin-inline: auto;
+}
+.contact-content {
+  background: var(--bg-1);
+  height: 1080px;
+}
+.contact-scroll {
+  margin-top: 128px;
+  margin-bottom: 64px;
+}
+.contact-label-name {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 112%;
+  color: var(--brand-1);
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  input {
+    margin-top: 8px;
+  }
+}
+.contact-label-email {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 112%;
+  color: var(--brand-1);
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  input {
+    margin-top: 8px;
+  }
+}
+.contact-label-message {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 112%;
+  color: var(--brand-1);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  input {
+    margin-top: 8px;
+  }
+}
+.contact-labels {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.contact-title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 112%;
+  text-transform: capitalize;
+  color: var(--brand-1);
+  border-bottom: 2px solid var(--brand-1);
+  margin-bottom: 7px;
+}
+.contact-desc {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 102px;
+}
+.contact-message {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 131%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--brand-1);
+
+  border: 2px solid var(--brand-1);
+  border-radius: 32px 0;
+  padding: 16px 40px;
+  margin-bottom: 64px;
+}
+input {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--brand-1);
+  color: var(--brand-1);
+  &::placeholder {
+    color: var(--white);
+  }
+}
+.contact-send {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: var(--bg-1);
+
+  display: flex;
+  background: var(--brand-1);
+  border-radius: 32px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+button {
+  margin-top: 64px;
+  background: transparent;
+}

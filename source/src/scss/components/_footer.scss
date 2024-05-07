@@ -1,0 +1,15 @@
+.footer {
+  color: var(--brand-1);
+  background: var(--brand-1);
+  margin-top: auto;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    max-width: 30px;
+  }
+}

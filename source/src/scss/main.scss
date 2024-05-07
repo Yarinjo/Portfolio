@@ -1,0 +1,32 @@
+// vendors
+@import "vendors/reset";
+
+// utils
+@import "utils/vars";
+@import "utils/mixins";
+
+// layout
+@import "layout/base";
+@import "layout/scroll";
+@import "layout/grid";
+
+// components
+@import "components/header";
+@import "components/footer";
+
+@import "components/home";
+@import "components/about";
+@import "components/skills";
+@import "components/work";
+@import "components/contact";
+
+// need to remove
+@import "components/template";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
